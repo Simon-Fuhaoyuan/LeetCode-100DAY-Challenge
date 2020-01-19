@@ -50,11 +50,7 @@ private:
 int main() {
     Solution s;
     vector<int> nums({1,2,3,1});
-    // vector<int> tmp(nums.begin(), nums.end() - 1);
 
-    // for (int i = 0; i < tmp.size(); ++i)
-    //     cout << tmp[i] << ' ';
-    // cout << endl;
     cout << s.rob(nums) << endl;
 
     return 0;
