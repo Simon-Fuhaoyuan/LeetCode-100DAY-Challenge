@@ -17,7 +17,7 @@ public:
             it = ump.find(nums[i]);
             if (it != ump.end()) // there are two same numbers
             {
-                if (2 * nums[i] == target) // they are the answers
+                if (2 * nums[i] == target) // they are the answer
                 {
                     ans.push_back(it->second);
                     ans.push_back(i);
