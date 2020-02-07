@@ -11,7 +11,7 @@ public:
         while (index < nums.size()) {
             tmp = nums[index++];
             nums[unique++] = tmp;
-            while (nums[index] == tmp)
+            while (index < nums.size() && nums[index] == tmp)
                 index++;
         }
 
