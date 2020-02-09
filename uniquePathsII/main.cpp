@@ -11,9 +11,9 @@ public:
         int n = obstacleGrid[0].size();
         if (n == 0)
             return 0;
-        int **dp = new int*[m + 1];
+        long **dp = new long*[m + 1]; // long type here is to prevent overflow
         for (int i = 0; i <= m; ++i)
-            dp[i] = new int[n + 1];
+            dp[i] = new long[n + 1];
         
         for (int i = 0; i < m + 1; ++i)
             dp[i][n] = 0;
