@@ -14,6 +14,8 @@ struct TreeNode {
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
+        if (!root)
+            return true;
         return isSymmetric(root->left, root->right);
     }
 private:
