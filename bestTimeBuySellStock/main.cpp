@@ -7,7 +7,7 @@ public:
     int maxProfit(vector<int>& prices) {
         int ans = 0;
         int idx = 0;
-        int min_idx = 0, max_idx = 0;
+        int min_idx = 0;
         int size = prices.size();
         while (idx < size) {
             // find a bottom
