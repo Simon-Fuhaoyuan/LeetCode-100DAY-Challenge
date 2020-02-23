@@ -12,7 +12,7 @@ public:
         int n = grid[0].size();
         if (n == 0)
             return 0;
-        // record visit info
+        // bfs queue
         queue<vector<int>> bfs;
         int ans = 0;
         // traverse the grid
