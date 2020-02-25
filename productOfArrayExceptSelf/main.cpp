@@ -26,6 +26,9 @@ public:
         for (int i = 0; i < nums.size(); ++i) {
             ans[i] *= nums[i];
         }
+        // This solution is actually a O(1)-space solution,
+        // since the space for right-hand-side record is also
+        // for the result space.
         return ans;
     }
 };
