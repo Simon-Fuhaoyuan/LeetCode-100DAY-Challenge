@@ -19,7 +19,6 @@ public:
             abs_divisor -= 1;
             abs_divisor = ~abs_divisor;
         }
-        cout << abs_divisor << endl;
         unsigned int div = 0;
         for (int i = 0; i < 32; ++i) {
             ans = ans << 1;
