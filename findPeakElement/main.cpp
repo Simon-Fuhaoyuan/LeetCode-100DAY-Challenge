@@ -46,5 +46,6 @@ int main() {
     Solution s;
     vector<int> nums({1,2,4,7,5,8});
     cout << s.findPeakElement(nums) << endl;
+    
     return 0;
 }
